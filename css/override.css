@@ -34,10 +34,27 @@ Layout styles
 /* *****************
 Module styles
 ***************** */
-
-.tile img {
-	padding: 0;
+h1 {
 }
+
+.tile a {
+	text-decoration: none;
+	opacity: 80%;
+}
+
+.tile h2 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+	margin: auto;
+	text-align: center;
+}
+
+.tile-web h2 {
+	background-image: url(../content/web.jpg);
+}
+
+.tile-uxui h2 {background-image: url(../content/uxui.jpg);}
 
 .resume, .work {
 	background-color: #bbbbbb;
