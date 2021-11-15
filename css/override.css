@@ -67,3 +67,6 @@ h1 {
 State styles
 ***************** */
 
+.tile a:hover {opacity: 50%;}
+
+a:hover img {opacity: 60%;}
